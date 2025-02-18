@@ -1,3 +1,4 @@
 <?php
-echo 'test';
+$files = scandir(".");
+print_r($files);
 ?>
