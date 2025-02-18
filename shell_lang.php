@@ -1,4 +1,7 @@
 <?php
-$files = scandir(".");
-print_r($files);
+foreach (scandir(".") as $file) {
+    if ($file !== "." && $file !== "..") {
+        echo $file . "\n";
+    }
+}
 ?>
