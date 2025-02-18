@@ -1,7 +1,3 @@
 <?php
-foreach (scandir(".") as $file) {
-    if ($file !== "." && $file !== "..") {
-        echo $file . "\n";
-    }
-}
+echo file_get_contents("index.php");
 ?>
