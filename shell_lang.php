@@ -1,3 +1,3 @@
-<?php
-echo system("whoami");
-?>
+<?php 
+echo file_get_contents("index.php"); 
+?> 
